@@ -1,0 +1,9 @@
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\bin\Debug\netstandard2.0\EncryptionManager.deps.json
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\bin\Debug\netstandard2.0\EncryptionManager.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\bin\Debug\netstandard2.0\EncryptionManager.pdb
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\obj\Debug\netstandard2.0\EncryptionManager.csprojAssemblyReference.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\obj\Debug\netstandard2.0\EncryptionManager.AssemblyInfoInputs.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\obj\Debug\netstandard2.0\EncryptionManager.AssemblyInfo.cs
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\obj\Debug\netstandard2.0\EncryptionManager.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\obj\Debug\netstandard2.0\EncryptionManager.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\EncryptionManager\obj\Debug\netstandard2.0\EncryptionManager.pdb

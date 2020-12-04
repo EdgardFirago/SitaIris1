@@ -1,0 +1,9 @@
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\obj\Debug\netstandard2.0\NetworkManager.csprojAssemblyReference.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\obj\Debug\netstandard2.0\NetworkManager.AssemblyInfoInputs.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\obj\Debug\netstandard2.0\NetworkManager.AssemblyInfo.cs
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\obj\Debug\netstandard2.0\NetworkManager.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\bin\Debug\netstandard2.0\NetworkManager.deps.json
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\bin\Debug\netstandard2.0\NetworkManager.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\bin\Debug\netstandard2.0\NetworkManager.pdb
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\obj\Debug\netstandard2.0\NetworkManager.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\NetworkManager\obj\Debug\netstandard2.0\NetworkManager.pdb

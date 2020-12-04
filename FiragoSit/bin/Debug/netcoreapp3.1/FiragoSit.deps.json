@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FiragoSit/1.0.0": {
+        "dependencies": {
+          "FileManager": "1.0.0",
+          "NetworkManager": "1.0.0"
+        },
+        "runtime": {
+          "FiragoSit.dll": {}
+        }
+      },
+      "FileManager/1.0.0": {
+        "runtime": {
+          "FileManager.dll": {}
+        }
+      },
+      "NetworkManager/1.0.0": {
+        "runtime": {
+          "NetworkManager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FiragoSit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetworkManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

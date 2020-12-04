@@ -1,0 +1,9 @@
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\bin\Debug\netstandard2.0\ArchiveManager.deps.json
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\bin\Debug\netstandard2.0\ArchiveManager.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\bin\Debug\netstandard2.0\ArchiveManager.pdb
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\obj\Debug\netstandard2.0\ArchiveManager.csprojAssemblyReference.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\obj\Debug\netstandard2.0\ArchiveManager.AssemblyInfoInputs.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\obj\Debug\netstandard2.0\ArchiveManager.AssemblyInfo.cs
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\obj\Debug\netstandard2.0\ArchiveManager.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\obj\Debug\netstandard2.0\ArchiveManager.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\ArchiveManager\obj\Debug\netstandard2.0\ArchiveManager.pdb
