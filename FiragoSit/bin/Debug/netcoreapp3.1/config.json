@@ -1,0 +1,10 @@
+{
+    "path": "TargetDirectory/",
+    "serverPath": "/files/",
+    "loginFTP": "ftpuser",
+    "passwordFTP": "qwerty123",
+    "IsEnableSSL": true,
+    "HOST": "37.140.195.104"
+
+
+}

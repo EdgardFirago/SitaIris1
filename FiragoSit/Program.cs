@@ -5,49 +5,70 @@ using System.Net;
 using NetworkManager;
 using FileManager;
 using System.Threading;
+using Newtonsoft.Json;
+using ConfigurationManager;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace FiragoSit
 {
     class Program
     {
-        const string path = "/TargetDirectory/";
 
+        static ArrayList arrayName = new ArrayList();
+       
         static void Main(string[] args)
-        {
-            Request ftpRequest = new Request("37.140.195.104");
-            ftpRequest.SetCredential("ftpuser", "qwerty123");
+        { 
+            ConfigManager configManager = new ConfigManager();
+            ConfigClass dataClass = configManager.SetConfig("config.json");
+           
+            Request ftpRequest = new Request(dataClass.HOST);
+            ftpRequest.SetCredential(dataClass.loginFTP, dataClass.passwordFTP);
             ftpRequest.IsEnableSSL = true;
-            ArrayList arrayName = new ArrayList();
+           
             //Я понимаю что это не очень правильно и можно было сделать цикличный таймер, но если это первая часть проекта ,то он всё равно будет меняться
             while (true)
             {
-                Monitoring(ref ftpRequest,ref arrayName);
+                Monitoring(ftpRequest,dataClass);
                 Thread.Sleep(1000);
 
             }
-            static void Monitoring(ref Request ftpRequest,ref ArrayList arrayName)
+            static async void Monitoring(Request ftpRequest,ConfigClass dataClass)
             {
-                ArrayList array = ftpRequest.CheckDirection("/files/");
+                
+                ArrayList array = ftpRequest.CheckDirection(dataClass.serverPath);
                 foreach (string name in array)
                 {
                     string[] temp = name.Split('.');
                     if (arrayName.Contains(temp[0]))
                         continue;
                     arrayName.Add(temp[0]);
-                    byte[] bytes = ftpRequest.DownloadFile("/files/" + name);
-                    var crypthographer = new EncryptionManager();
-                    byte[] cryptoBytes = crypthographer.CryptXOR(bytes);
+                   await Task.Run(() => workWithFileAsync(temp[0],name, ftpRequest, dataClass));
 
-                    var archiver = new Archiver();
-                    archiver.Compress(new MemoryStream(cryptoBytes), "TargetDirectory/" + temp[0] + ".gz");
-                    archiver.Decompress("TargetDirectory/" + temp[0] + ".gz", "TargetDirectory/"+ temp[0] + ".txt");
-                    byte[] EncryptByte = crypthographer.CryptXOR(File.ReadAllBytes("TargetDirectory/" + temp[0] + ".txt"));
-                    File.WriteAllBytes("TargetDirectory/ " + temp[0] + "Encrypt" + ".txt", EncryptByte);
                 }
 
+            }
+            static void workWithFileAsync(String name,String fullName, Request ftpRequest, ConfigClass dataClass)
+            {
+                byte[] bytes = ftpRequest.DownloadFile(dataClass.serverPath + fullName);
+
+                var crypthographer = new EncryptionManager();
+                byte[] cryptoBytes = crypthographer.CryptXOR(bytes);
+
+                var archiver = new Archiver();
+
+                archiver.Compress(new MemoryStream(cryptoBytes), dataClass.path + name + ".gz");
+
+                archiver.Decompress(dataClass.path + name + ".gz", dataClass.path + name + ".txt");
+
+                byte[] EncryptByte = crypthographer.CryptXOR(File.ReadAllBytes(dataClass.path + name + ".txt"));
+                File.WriteAllBytes(dataClass.path + name + "Encrypt" + ".txt", EncryptByte);
 
             }
-
+            
+            
+        
+           
 
         }
     }

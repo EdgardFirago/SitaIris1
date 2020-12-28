@@ -8,16 +8,40 @@
     ".NETCoreApp,Version=v3.1": {
       "FiragoSit/1.0.0": {
         "dependencies": {
+          "ConfigurationManager": "1.0.0",
           "FileManager": "1.0.0",
-          "NetworkManager": "1.0.0"
+          "Logger": "1.0.0",
+          "NetworkManager": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "FiragoSit.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "ConfigurationManager/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "ConfigurationManager.dll": {}
+        }
+      },
       "FileManager/1.0.0": {
         "runtime": {
           "FileManager.dll": {}
+        }
+      },
+      "Logger/1.0.0": {
+        "runtime": {
+          "Logger.dll": {}
         }
       },
       "NetworkManager/1.0.0": {
@@ -33,7 +57,24 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "ConfigurationManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "FileManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Logger/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

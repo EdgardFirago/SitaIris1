@@ -1,7 +1,6 @@
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\obj\Debug\netcoreapp3.1\FiragoSit.csprojAssemblyReference.cache
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\obj\Debug\netcoreapp3.1\FiragoSit.AssemblyInfoInputs.cache
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\obj\Debug\netcoreapp3.1\FiragoSit.AssemblyInfo.cs
-C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\obj\Debug\netcoreapp3.1\FiragoSit.csproj.CoreCompileInputs.cache
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\FiragoSit.exe
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\FiragoSit.deps.json
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\FiragoSit.runtimeconfig.json
@@ -16,3 +15,9 @@ C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\N
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\obj\Debug\netcoreapp3.1\FiragoSit.csproj.CopyComplete
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\FileManager.dll
 C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\FileManager.pdb
+C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\ConfigurationManager.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\Logger.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\ConfigurationManager.pdb
+C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\bin\Debug\netcoreapp3.1\Logger.pdb
+C:\Users\edgar\Desktop\Ситайри\Firago\FiragoSit\obj\Debug\netcoreapp3.1\FiragoSit.csproj.CoreCompileInputs.cache

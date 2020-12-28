@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nzGXu10SMZmbhGOyHKBbN/PNZ6R2IPMtIHPayKSUeo0OZOZiFp46sqQLnJ/npyTkBsn5IYzmZ6GTyd5pEMFwDQ==",
+  "dgSpecHash": "JZSy+np+SUh3L7ORcR1FOouXz4izV8FK94TulxsFgCMW4TUei5Zj5yvTg5Q9HP/iKc5FZ/knXV8Igne02G9kcw==",
   "success": true,
   "projectFilePath": "C:\\Users\\edgar\\Desktop\\Ситайри\\Firago\\FiragoSit\\FiragoSit.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\edgar\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

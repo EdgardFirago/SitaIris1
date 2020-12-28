@@ -1,0 +1,9 @@
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\bin\Debug\netstandard2.0\Logger.deps.json
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\bin\Debug\netstandard2.0\Logger.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\bin\Debug\netstandard2.0\Logger.pdb
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\obj\Debug\netstandard2.0\Logger.csprojAssemblyReference.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\obj\Debug\netstandard2.0\Logger.AssemblyInfoInputs.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\obj\Debug\netstandard2.0\Logger.AssemblyInfo.cs
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\obj\Debug\netstandard2.0\Logger.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\obj\Debug\netstandard2.0\Logger.dll
+C:\Users\edgar\Desktop\Ситайри\Firago\Logger\obj\Debug\netstandard2.0\Logger.pdb
